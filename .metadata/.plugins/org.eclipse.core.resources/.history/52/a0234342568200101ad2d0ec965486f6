@@ -1,0 +1,14 @@
+package 공부;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		
+		double age = 17.7;
+		String name = "채준혁";
+		
+		System.out.println("이름: " + name);
+		System.out.println("나이: " + age);
+	}
+
+}

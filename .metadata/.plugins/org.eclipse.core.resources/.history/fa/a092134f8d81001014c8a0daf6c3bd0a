@@ -1,0 +1,11 @@
+package 공부;
+
+public class test {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int a, b, c;
+		System.
+	}
+
+}

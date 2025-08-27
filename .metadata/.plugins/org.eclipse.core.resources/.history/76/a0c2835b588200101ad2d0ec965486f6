@@ -1,0 +1,14 @@
+package 공부;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		
+		String name = "채준혁";
+		System.out.println("이름: " + name);
+		
+		System.out.println("이름 길이: " + name.length());
+		System.out.println("성: " + name.charAt(0));
+	}
+
+}

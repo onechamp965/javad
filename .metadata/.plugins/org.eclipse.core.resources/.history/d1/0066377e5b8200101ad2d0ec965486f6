@@ -1,0 +1,24 @@
+package 공부;
+
+import java.util.Scanner;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int hour = sc.nextInt();
+		int minit = sc.nextInt();
+		
+		int minit1 = 0;
+		
+		minit1 = minit + 45;
+		if (minit1 >= 60) {
+			minit1 = minit1 - 60;
+			hour = hour +1;
+		}
+		System.out.println("시간: " + hour);
+		System.out.println("분: " + minit1);
+	}
+
+}

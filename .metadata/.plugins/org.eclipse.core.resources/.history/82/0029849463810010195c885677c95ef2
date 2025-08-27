@@ -1,0 +1,18 @@
+package sec04.exam02;
+
+public class KeyCodeExample {
+
+	public static void main(String[] args) throws Exception{
+		int keyCdoe;
+		
+		keyCdoe = System.in.read();
+		System.out.println("keyCdoe: " + keyCdoe);
+		
+		keyCdoe = System.in.read();
+		System.out.println("keyCdoe: " + keyCdoe);
+		
+		keyCdoe = System.in.read();
+		System.out.println("keyCdoe: " + keyCdoe);
+	}
+
+}

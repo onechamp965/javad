@@ -1,0 +1,19 @@
+package 공부;
+
+import java.util.Scanner;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int hour = sc.nextInt();
+		int minit = sc.nextInt();
+		
+		int hour1 = 0;
+		int minit1 = 0;
+		
+		minit1 = minit + 45;
+	}
+
+}
