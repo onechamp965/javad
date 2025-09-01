@@ -213,3 +213,29 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse
 
 !ENTRY ch.qos.logback.classic 1 0 2025-08-26 17:01:29.780
 !MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-08-27 10:20:10.097 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-27 10:20:12.252
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-27 10:20:13.628
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-09-01 10:41:44.434 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-01 10:41:46.365
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-01 10:41:47.677
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
