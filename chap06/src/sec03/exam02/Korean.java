@@ -1,4 +1,4 @@
-package sec03.exam2;
+package sec03.exam02;
 
 public class Korean {
 

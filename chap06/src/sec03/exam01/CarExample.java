@@ -1,4 +1,4 @@
-package sec03.exam1;
+package sec03.exam01;
 
 public class CarExample {
 
