@@ -1,6 +1,6 @@
 package sec04.exam06;
 
-public class Calculator {
+public class CalCulator {
 	double areaRectangle(double width) {
 		return width * width;
 	}
