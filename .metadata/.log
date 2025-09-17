@@ -421,3 +421,33 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse
 
 !ENTRY ch.qos.logback.classic 1 0 2025-09-15 12:22:57.021
 !MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-09-15 16:42:52.118 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-15 16:42:54.242
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-15 16:42:55.492
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-09-17 10:23:11.223 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-17 10:23:13.605
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-17 10:23:15.245
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-17 10:23:36.256
+!MESSAGE Exception caught during execution of command '[/usr/bin/git, --version]' in '/usr/bin', return code '69', error message 'You have not agreed to the Xcode license agreements. Please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode and Apple SDKs license.
+'
