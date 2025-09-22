@@ -18,4 +18,9 @@ public class Calculator {
 	void powerOff () {
 		System.out.println("전원을 끕니다.");
 	}
+
+	public double areaRectangle(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
