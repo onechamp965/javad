@@ -58,3 +58,5 @@
 2025-09-24 09:43:56,364 [Worker-1: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
 2025-10-01 09:18:58,034 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2025-10-01 09:19:05,169 [Worker-10: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-13 10:42:18,638 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-10-13 10:42:25,567 [Worker-4: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
