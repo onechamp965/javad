@@ -8,5 +8,4 @@ public class DriverExample {
 		Taxi taxi = new Taxi();
 
 	}
-
 }
