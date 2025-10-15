@@ -1643,3 +1643,191 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse
 
 !ENTRY ch.qos.logback.classic 1 0 2025-10-13 10:42:11.736
 !MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-10-13 19:35:14.812 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-13 19:35:16.807
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-13 19:35:18.192
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-10-13 19:37:19.530 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-13 19:37:20.962
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-13 19:37:22.210
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-10-13 20:02:27.950
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:191)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:124)
+	at org.eclipse.swt.graphics.Font.<init>(Font.java:138)
+	at org.eclipse.jface.resource.ArrayFontDescriptor.createFont(ArrayFontDescriptor.java:78)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogToolTip.createLabel(CatalogToolTip.java:81)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogToolTip.createToolTipArea(CatalogToolTip.java:58)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientToolTip.createToolTipContentArea(GradientToolTip.java:60)
+	at org.eclipse.jface.window.ToolTip.toolTipShow(ToolTip.java:345)
+	at org.eclipse.jface.window.ToolTip.toolTipOpen(ToolTip.java:469)
+	at org.eclipse.jface.window.ToolTip.toolTipCreate(ToolTip.java:334)
+	at org.eclipse.jface.window.ToolTip$ToolTipOwnerControlListener.handleEvent(ToolTip.java:609)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1394)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4427)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4003)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:146)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:444)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:475)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:497)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1394)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4427)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4003)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:146)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:444)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:475)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:497)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1394)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4427)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4003)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+!SESSION 2025-10-14 08:35:26.563 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-14 08:35:28.474
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-14 08:35:29.738
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-10-14 16:45:36.379 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-14 16:45:38.579
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-14 16:45:40.012
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-10-14 16:59:05.092 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-14 16:59:07.646
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-14 16:59:08.952
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-10-14 17:17:56.397 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-14 17:17:58.100
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-14 17:17:59.474
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-10-15 09:41:33.649 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/onechamp965gmail.com/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-15 09:41:35.575
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-15 09:41:36.889
+!MESSAGE Logback config file: /Users/onechamp965gmail.com/Documents/java/e/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml

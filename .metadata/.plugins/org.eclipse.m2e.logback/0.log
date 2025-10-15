@@ -60,3 +60,18 @@
 2025-10-01 09:19:05,169 [Worker-10: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
 2025-10-13 10:42:18,638 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2025-10-13 10:42:25,567 [Worker-4: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-13 19:35:23,785 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-13 19:35:29,687 [Worker-4: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-13 19:37:27,472 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-13 19:37:33,564 [Worker-9: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-14 08:35:34,943 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-14 08:35:41,161 [Worker-8: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-14 16:45:45,636 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-10-14 16:45:52,487 [Worker-9: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-14 16:59:14,770 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-14 16:59:20,805 [Worker-8: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-14 16:59:21,718 [Worker-6: Deferred Early Start] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->[https://www.eclipse.org:443]
+2025-10-14 17:18:05,064 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-14 17:18:11,198 [Worker-9: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-15 09:41:42,448 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-15 09:41:48,539 [Worker-9: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
