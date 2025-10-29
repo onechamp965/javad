@@ -92,3 +92,15 @@
 2025-10-27 10:55:27,169 [Worker-24: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
 2025-10-27 11:00:40,514 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2025-10-27 11:00:46,280 [Worker-10: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-27 16:48:37,858 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-27 16:48:44,037 [Worker-1: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-27 20:06:39,585 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-27 20:06:45,412 [Worker-4: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-28 15:11:25,002 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-10-28 15:11:30,769 [Worker-7: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-28 16:56:31,089 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-28 16:56:36,716 [Worker-9: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-29 09:55:20,007 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-29 09:55:26,185 [Worker-9: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
+2025-10-29 10:42:01,778 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-29 10:42:07,418 [Worker-11: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - null
