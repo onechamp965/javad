@@ -1,4 +1,4 @@
-package exam30333;
+package exam2032;
 
 public interface Drawable {
 	public void draw();

@@ -1,5 +1,8 @@
 package sec01.exam06;
 
+import sec01.exam04.Audio;
+import sec01.exam04.Television;
+
 public class MyClassExample {
 	public static void main(String[] args) {
 		System.out.println("1)----------");
@@ -20,7 +23,7 @@ public class MyClassExample {
 		System.out.println("4)----------");
 		
 		MyClass myClass4 = new MyClass();
-		myClass4.methodB(new Television);
+		myClass4.methodB(new Television());
 	}
 	
 }

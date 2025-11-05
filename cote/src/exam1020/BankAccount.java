@@ -64,11 +64,5 @@ public class BankAccount {
 		balance += amount;
 		return balance;
 	}
-
-
-	public static char[] getCount() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
 }

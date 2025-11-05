@@ -1,0 +1,12 @@
+package sec01.exam05;
+
+public class Outter {
+	String field = "Outter-field";
+	void method() {
+		System.out.println("Outter-method");
+	}
+	
+	class Nested {
+		String field = 
+	}
+}

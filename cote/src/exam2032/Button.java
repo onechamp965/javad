@@ -1,8 +1,8 @@
 package exam2032;
 
-public class Button	implements Clickable{
+public class Button implements Clickable, Drawable{
 	
-	public String label;
+	String label;
 	public Button() {}
 	public Button(String label) {
 		this.label = label;
@@ -12,4 +12,11 @@ public class Button	implements Clickable{
 	public void click() {
 		System.out.println("버튼이 클릭되었습니다.");
 	}
+	
+	@Override
+	public void draw() {
+		if ( label != null)
+			System.out.println(label + "클릭되었습니다.");
+	}
+
 }
