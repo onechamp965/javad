@@ -7,6 +7,6 @@ public class Outter {
 	}
 	
 	class Nested {
-		String field = 
+		 
 	}
 }
