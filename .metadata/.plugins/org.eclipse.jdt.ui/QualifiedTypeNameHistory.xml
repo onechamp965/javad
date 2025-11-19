@@ -12,5 +12,6 @@
     <fullyQualifiedTypeName name="sec01.exam01.A.B"/>
     <fullyQualifiedTypeName name="sec01.exam01.A.C"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="sec02.exam03.Button.OnClickListener"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
